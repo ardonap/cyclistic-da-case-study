@@ -48,3 +48,4 @@ __Cited:__ The dataset has been provided by Motivate International Inc. under a 
 ### Tools
 SQL was used for comprehensive data integration, cleansing, transformation, validation, exploration, and analysis. Additionally, Looker was used for further analysis, and for the presentation of findings using interactive charts.
 ### Data Integration
+Data Integration was done through SQL using this [code](Data Integration.sql)
