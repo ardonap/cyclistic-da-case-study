@@ -48,4 +48,38 @@ __Cited:__ The dataset has been provided by Motivate International Inc. under a 
 ### Tools
 SQL was used for comprehensive data integration, cleansing, transformation, validation, exploration, and analysis. Additionally, Looker was used for further analysis, and for the presentation of findings using interactive charts.
 ### Data Integration
-Data Integration was done through SQL using this [code](Data Integration.sql)
+Data Integration was done through SQL - [Data Integration](https://github.com/low-boat/cyclistic-da-case-study/blob/main/Data%20Integration.sql)
+This step gave us a dataset of 5,779,444 rows and 14 columns. 
+| column_name       | data_type  |
+|-------------------|------------|
+| ride_id           | STRING     |
+| rideable_type     | STRING     |
+| started_at        | TIMESTAMP  |
+| ended_at          | TIMESTAMP  |
+| start_station_name| STRING     |
+| start_station_id  | STRING     |
+| end_station_name  | STRING     |
+| end_station_id    | STRING     |
+| start_lat         | FLOAT64    |
+| start_lng         | FLOAT64    |
+| end_lat           | FLOAT64    |
+| end_lng           | FLOAT64    |
+| member_casual     | STRING     |
+### Data Transformation
+To enhance the data analysis, two additional columns were added. Here's the SQL code for this [data transformation](https://github.com/low-boat/cyclistic-da-case-study/blob/main/Data%20Transformation.sql)
+
+`ride_length` - This column calculates for the trip duration by finding the difference between the `ended_at` and `started_at columns`.
+
+`day_of_week` - This column extracts the day of the week from the `started_at` column to identify the specific day when each trip occurred (e.g., Monday, Tuesday, etc.).
+
+| column_name       | data_type  |
+|-------------------|------------|
+| ride_length       | FLOAT64    |
+| day_of_week       | STRING     |
+###Data Validation
+
+
+
+
+
+
