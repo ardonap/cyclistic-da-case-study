@@ -78,8 +78,9 @@ To enhance the data analysis, two additional columns were added. Here's the SQL 
 | ride_length       | FLOAT64    |
 | day_of_week       | STRING     |
 
-###Data Validation
-With all the necessary columns complete, several scenarios were tried to validate data completeness, consistency, and accuracy. Refer to the [Data Validation](https://github.com/low-boat/cyclistic-da-case-study/blob/main/Data%20Validation.sql) SQL Code for a more detailed list of validations and findings done.
+### Data Validation
+
+With all the necessary columns complete, several scenarios were tried to validate data completeness, consistency, and accuracy. For a detailed list of validations and findings, refer to the [Data Validation](https://github.com/low-boat/cyclistic-da-case-study/blob/main/Data%20Validation.sql) SQL Code.
 
 Here's a summary of noteworthy findings:
 
@@ -95,7 +96,14 @@ Certain columns, such as `start_station_name`, have missing records. As these co
 4. Duplicate `ride_id`:
 Although there are some duplicate `ride_id` values, further examination reveals that the other details differ. Consequently, these records were retained.
 
+### Data Cleansing
+As stated above, negative `ride_length` records need to be removed. Here's the [Data Cleansing](https://github.com/low-boat/cyclistic-da-case-study/blob/main/Data%20Cleansing.sql) SQL code for that.
 
+This left us a dataset of 5,720,686 rows and 16 columns. 
+
+### Data Exploration
+
+With the dataset complete and ready for analysis, I ran some [SQL codes](https://github.com/low-boat/cyclistic-da-case-study/blob/main/Data%20Exploration.sql) to further explore the data.
    
 
 
