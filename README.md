@@ -104,7 +104,8 @@ This left us a dataset of 5,720,686 rows and 16 columns.
 ### Data Exploration
 
 With the dataset complete and ready for analysis, I ran some [SQL codes](https://github.com/low-boat/cyclistic-da-case-study/blob/main/Data%20Exploration.sql) to further explore the data.
-   
+
+## Phase IV: Analyze
 
 
 
