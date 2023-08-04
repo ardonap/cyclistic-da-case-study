@@ -49,6 +49,7 @@ __Cited:__ The dataset has been provided by Motivate International Inc. under a 
 SQL was used for comprehensive data integration, cleansing, transformation, validation, exploration, and analysis. Additionally, Looker was used for further analysis, and for the presentation of findings using interactive charts.
 ### Data Integration
 Data Integration was done through SQL - [Data Integration](https://github.com/low-boat/cyclistic-da-case-study/blob/main/Data%20Integration.sql)
+
 This step gave us a dataset of 5,779,444 rows and 14 columns. 
 | column_name       | data_type  |
 |-------------------|------------|
@@ -76,9 +77,26 @@ To enhance the data analysis, two additional columns were added. Here's the SQL 
 |-------------------|------------|
 | ride_length       | FLOAT64    |
 | day_of_week       | STRING     |
+
 ###Data Validation
+With all the necessary columns complete, several scenarios were tried to validate data completeness, consistency, and accuracy. Refer to the [Data Validation](https://github.com/low-boat/cyclistic-da-case-study/blob/main/Data%20Validation.sql) SQL Code for a more detailed list of validations and findings done.
+
+Here's a summary of noteworthy findings:
+
+1. Records with Negative `ride_length`:
+During data cleansing, I found multiple rows with negative `ride_length`. To ensure data accuracy, I will remove these records. This is the primary issue requiring attention in data cleansing. While there are other findings, they won't significantly impact the overall data analysis. In practice, I would consult with clients to clarify any uncertainties in the data. For this case study, I'll proceed by eliminating the negative `ride_length` records while retaining the rest.
+
+2. Records with Very Long or Very Short `ride_length`:
+Some ride_length values are shorter than a minute or longer than 10 hours.
+
+3. Records with Missing Data:
+Certain columns, such as `start_station_name`, have missing records. As these columns are not used in the analysis, the missing records were retained as is.
+
+4. Duplicate `ride_id`:
+Although there are some duplicate `ride_id` values, further examination reveals that the other details differ. Consequently, these records were retained.
 
 
+   
 
 
 
