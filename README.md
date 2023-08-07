@@ -106,6 +106,10 @@ This left us a dataset of 5,720,686 rows and 16 columns.
 With the dataset complete and ready for analysis, I ran some [SQL codes](https://github.com/low-boat/cyclistic-da-case-study/blob/main/Data%20Exploration.sql) to further explore the data.
 
 ## Phase IV: Analyze
+Data analysis and visualization were conducted concurrently using Looker. While screenshots from the presentation are provided here, the interactive [Looker visualization](https://lookerstudio.google.com/reporting/9868601c-5293-47a5-891e-7244391f2aeb) offers the best insight.
+
+![Analysis 1 and 2](https://github.com/low-boat/cyclistic-da-case-study/blob/main/Analysis%201.jpg)
+![Analysis 3, 4 and 5](https://github.com/low-boat/cyclistic-da-case-study/blob/main/Analysis%202.jpg)
 
 
 
