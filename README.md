@@ -110,7 +110,17 @@ Data analysis and visualization were conducted concurrently using Looker. While 
 
 ![Analysis 1 and 2](https://github.com/low-boat/cyclistic-da-case-study/blob/main/Analysis%201.jpg)
 ![Analysis 3, 4 and 5](https://github.com/low-boat/cyclistic-da-case-study/blob/main/Analysis%202.jpg)
+## Phase V: Share
+### Key Findings
+Analysis uncovers stark disparities in usage between casual and member users of the ride-share system. __Casual riders predominantly engage in leisurely trips with longer durations, while members opt for shorter, more consistent trips, indicative of regular commuting.__ Key findings highlight these distinctions:
+1. Trip Duration:
+* Casual users indulge in leisurely trips, spending more time on their rides.
+* Members exhibit shorter and more consistent trip durations, reflecting routine commutes.
+2. Time Period:
+* Casual users peak in their ride activity from April to September, aligning with [Chicago's peak tourist season](https://travel.usnews.com/Chicago_IL/When_To_Visit/), featuring fair weather, festivals, concerts, and outdoor activities.
+* Members' usage remains steady throughout the year, emphasizing the practicality of their regular commuting habits.
+3. Day of Week:
+* Casual users prefer weekend rides, showcasing a leisure-driven usage pattern.
+* Members predominantly ride on weekdays, mirroring their commuting needs for work or school.
 
-
-
-
+_Refer to the interactive data visualization [here](https://lookerstudio.google.com/reporting/9868601c-5293-47a5-891e-7244391f2aeb)._
