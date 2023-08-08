@@ -123,4 +123,29 @@ Analysis uncovers stark disparities in usage between casual and member users of 
 * Casual users prefer weekend rides, showcasing a leisure-driven usage pattern.
 * Members predominantly ride on weekdays, mirroring their commuting needs for work or school.
 
-_Refer to the interactive data visualization [here](https://lookerstudio.google.com/reporting/9868601c-5293-47a5-891e-7244391f2aeb)._
+_Refer to the presentation and interactive data visualization [here](https://lookerstudio.google.com/reporting/9868601c-5293-47a5-891e-7244391f2aeb)._
+
+## Phase VI: Act
+### Marketing Strategy Recommendations
+#### Tailored Leisure Benefits
+
+Craft membership benefits tailored to casual users' leisure-driven preferences. Offer exclusive discounts and rewards for leisure activities and events such as:
+
+* Special passes or early access to popular festivals, concerts, etc.
+* Exclusive meal deals or discounts to members from partner restaurants and cafes near ride-share stations
+
+#### Season Pass Promotion
+
+Introduce "Season Pass" pricing plan, covering peak months from April to September. This pass caters to casual riders, offering a convenient and cost-effective option for their preferred ride-share usage.
+
+#### Smart Time and Location Ads
+
+Deploy time-targeted ads via in-app notifications during weekends and peak hours to engage casual users at their most receptive moments.
+
+Utilize geo-targeted ads near parks, events, and tourist spots, capturing casual users' attention at relevant locations.
+### Other Recommendations
+These recommendations are not marketing strategies, but rather suggestions for further investigation into some intriguing findings from the analysis that may require more exploration before drawing definitive conclusions:
+
+* Late-Night Ride Patterns: Explore casual users' peak ride lengths between 12 AM to 4 AM to uncover potential opportunities for profitability.
+* Docked Bicycle Usage: Investigate why casual users prefer docked bicycles for over 75% of the time to optimize offerings.
+
