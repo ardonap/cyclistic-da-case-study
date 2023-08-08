@@ -10,7 +10,7 @@ As a member of the marketing team, my role involves conducting a thorough examin
 This case study follows a comprehensive six-stage data analysis method (__Ask, Prepare, Process, Analyze, Share, and Act__) to provide actionable insights and strategic recommendations that inform decision-making and drive the conversion of casual riders into loyal annual members.
 ## Phase I: Ask
 ### Business Task
-Conduct a comprehensive analysis of Cyclistic's bike rental data in order to discern the behaviors and usage patterns of casual riders in contrast with the annual members. This analysis aims to uncover key insights need to convert casual riders to annual members.
+Conduct a comprehensive analysis of Cyclistic's bike rental data in order to discern the behaviors and usage patterns of casual riders in contrast with the annual members. This analysis aims to uncover key insights need to convert **casual riders**, who typically purchase single and full-day passes, into loyal **members** who opt for annual memberships.
 
 From these insights, devise an effective marketing strategy that caters to the identified preferences of casual riders. Finally, present the results of the data analysis and the proposed marketing strategy to Cyclistic's executive team, using professional and insightful data visualizations, to secure buy-in and approval of the recommended course of action.
 ## Phase II: Prepare
